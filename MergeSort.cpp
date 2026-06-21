@@ -53,17 +53,23 @@ void MergeSort(int A[], int l, int h)
 int main()
 {
     int n;
+
+    cout << "Enter array size: ";
     cin >> n;
 
     int A[n];
+
+    cout << "Enter " << n << " elements: ";
 
     for (int i = 0; i < n; i++)
         cin >> A[i];
 
     MergeSort(A, 0, n - 1);
 
+    cout << "Sorted Array: ";
+
     for (int i = 0; i < n; i++)
         cout << A[i] << " ";
 
     return 0;
-}
+}.
