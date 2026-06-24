@@ -58,7 +58,6 @@ int main()
     cin >> n;
 
     int A[n];
-
     cout << "Enter " << n << " elements: ";
 
     for (int i = 0; i < n; i++)
@@ -72,4 +71,4 @@ int main()
         cout << A[i] << " ";
 
     return 0;
-}.
+}
